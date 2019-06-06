@@ -1,10 +1,12 @@
 # MovieLens-MapReduce-Analysis
 MapReduce code to find some interesting facts about MovieLens data. Matplotlib,pandas,numpy also used to produce visual outputs to support our facts.
+
 ## Requirements
+
 * Apache Hadoop
 * Cloudera(In this case) / Linux
 * Python3
-* Numpy,Pandas,Matplotlib
+* Numpy,Pandas,Matplotlib,Seaborn
 
 ## Dataset
 Dataset taken from https://grouplens.org/datasets/movielens/
@@ -68,7 +70,9 @@ Dataset taken from https://grouplens.org/datasets/movielens/
 
 ## Task Performed
 ### Task1
-Finding and sorting users on the basis of the no of movies they rated.
+Finding and sorting users on the basis of the no of movies they rated. 
+
+In this task, from the given dataset we’ll find a distribution for the number of movies rated by a user - that is, the number of users who have rated 1 movie, 2 movies, 3 movies etc. This will give us an analysis that how many persons who rated the movie and based on the number of ratings he/she can estimate the content in the movie.
 
 File used: ratings.dat used
 
@@ -78,6 +82,8 @@ To compute the frequency of user age groups that gives ratings to movies in orde
 File used: users.dat
 ### Task3
 Sorting and organizing all the movies on the basis of genres
+
+In this task, from the given dataset we’ll find the distribution of movies by different genres available like Drama, Comedy, etc. This will give the user a wide perspective with which he can decide which category is more reviewed.
 
 File used: movies.dat
 
